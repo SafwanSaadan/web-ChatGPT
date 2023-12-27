@@ -1,4 +1,4 @@
-const apiKey = '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'; // قم بتعويض 'YOUR_OPENAI_API_KEY' بمفتاح API الخاص بك
+const apiKey = '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'; // قم بتعويض 'YOUR_OPENAI_API_KEY' بمفتاح API الخاص بك
 
 async function sendMessage() {
     var messageInput = document.getElementById('message-input');
