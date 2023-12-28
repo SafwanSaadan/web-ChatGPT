@@ -27,7 +27,7 @@ async function sendMessage() {
             body: JSON.stringify({
                 model: 'text-davinci-003',
                 prompt: messageText,
-                max_tokens: 550
+                max_tokens: 250
             })
         });
 
