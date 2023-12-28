@@ -1,4 +1,4 @@
-const apiKey = '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'; // قم بتعويض 'YOUR_OPENAI_API_KEY' بمفتاح API الخاص بك
+const apiKey = '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'; // قم بتعويض 'YOUR_OPENAI_API_KEY' بمفتاح API الخاص بك
 
 async function sendMessage() {
     var messageInput = document.getElementById('message-input');
@@ -27,7 +27,7 @@ async function sendMessage() {
             body: JSON.stringify({
                 model: 'text-davinci-003',
                 prompt: messageText,
-                max_tokens: 250
+                max_tokens: 500
             })
         });
 
